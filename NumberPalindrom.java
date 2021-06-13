@@ -1,26 +1,23 @@
 public class NumberPalindrom {
     public static void main(String[] args) {
-        int x = -12321;
+        int x = 12321;
 
         System.out.println(checkNumberPalindrom(x));
     }
 
     private static boolean checkNumberPalindrom(int x) {
+        int copyofX = x;
+        int revofX = 0;
 
-        String s = x + "";
-        int end = s.length() - 1;
-        boolean isPal = false;
-        if (x < 0) {
-            return isPal;
+        if(x < 0 ) return false;
+        if(x < 10) return true;
+
+        while (x != 0) {
+            revofX *= 10;
+            revofX = revofX +  (x % 10);
+            x /= 10;
         }
 
-       for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == s.charAt(end--)) {
-                isPal = true;
-            }else{
-                return false;
-            }
-       }
-        return isPal;
+        return copyofX == revofX;
     }
 }
