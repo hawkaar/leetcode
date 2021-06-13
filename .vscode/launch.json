@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch GFG",
+            "request": "launch",
+            "mainClass": "GFG",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LonegestPalindromMethod2",
+            "request": "launch",
+            "mainClass": "LonegestPalindromMethod2",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalinSubstring",
+            "request": "launch",
+            "mainClass": "LongestPalinSubstring",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindrome3",
+            "request": "launch",
+            "mainClass": "LongestPalindrome3",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromeManachers",
+            "request": "launch",
+            "mainClass": "LongestPalindromeManachers",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyAtoI",
+            "request": "launch",
+            "mainClass": "MyAtoI",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberPalindrom",
+            "request": "launch",
+            "mainClass": "NumberPalindrom",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInt",
+            "request": "launch",
+            "mainClass": "ReverseInt",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanToInt",
+            "request": "launch",
+            "mainClass": "RomanToInt",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "leetcode_1af538d8"
+        }
+    ]
+}
