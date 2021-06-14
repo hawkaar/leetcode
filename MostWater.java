@@ -1,8 +1,6 @@
-import java.util.Arrays;
-
 public class MostWater {
     public static void main(String[] args) {
-        int height[] = new int[] {4,3,2,1,4};
+        int height[] = new int[] {1,8,6,2,5,4,8,3,7};
 
         System.out.println(maxArea(height));
     }
@@ -19,11 +17,13 @@ public class MostWater {
             }
 
             if (height[begin] < height[end]) {
-                
+                begin++;
+            }else{
+                end--;
             }
         }
 
 
-        return 0;
+        return maxArea;
     }
 }
