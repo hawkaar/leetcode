@@ -6,12 +6,19 @@ public class MostWater {
     }
 
     private static int maxArea(int[] height) {
-        
+
+        //initializing variables
         int begin = 0, end = height.length-1, maxArea = 0;
 
+        //Continue until left pointer reaches right pointer
         while(begin < end){
 
+            //determine if the new area is larger than the current area in 'maxArea'
             maxArea = Math.max(maxArea, (Math.min(height[begin], height[end]) * (end - begin)));
+
+            //check for the smaller bar(number)
+            //if the left pointer then increment
+            //else decrement the right pointer
             if (height[begin] < height[end]) {
                 begin++;
             }else{
@@ -19,7 +26,7 @@ public class MostWater {
             }
         }
 
-
+        
         return maxArea;
     }
 }
