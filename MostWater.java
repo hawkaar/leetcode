@@ -11,11 +11,8 @@ public class MostWater {
         int maxArea = 0;
 
         while(begin < end){
-            int newArea = Math.min(height[begin], height[end]) * (end - begin);
-            if (newArea > maxArea) {
-                maxArea = newArea;
-            }
-
+            
+            maxArea = Math.max(maxArea, (Math.min(height[begin], height[end]) * (end - begin)));
             if (height[begin] < height[end]) {
                 begin++;
             }else{
