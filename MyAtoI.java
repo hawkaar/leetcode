@@ -6,8 +6,8 @@ public class MyAtoI {
     }
 
     private static int myAtoi(String s) {
-        int num = 0;
-        boolean neg = false;
+        int result = 0;
+        boolean isNegative = false;
         int i = 0;
         
         if (s.isEmpty()) {
@@ -22,7 +22,7 @@ public class MyAtoI {
         }
 
         if (s.charAt(i) == '-') {
-            neg = true;
+            isNegative = true;
             i++;
         }else if(s.charAt(i) == '+'){
             i++;
@@ -32,18 +32,18 @@ public class MyAtoI {
 
 
             int cValue = Character.getNumericValue(s.charAt(i));
-            if (neg) {
-                if(num > Integer.MAX_VALUE/10 || (num == Integer.MAX_VALUE/10 && cValue > 8)) return Integer.MIN_VALUE;
+            if (isNegative) {
+                if(result > Integer.MAX_VALUE/10 || (result == Integer.MAX_VALUE/10 && cValue > 8)) return Integer.MIN_VALUE;
             } else {
-                if(num > Integer.MAX_VALUE/10 || (num == Integer.MAX_VALUE/10 && cValue > 7)) return Integer.MAX_VALUE;
+                if(result > Integer.MAX_VALUE/10 || (result == Integer.MAX_VALUE/10 && cValue > 7)) return Integer.MAX_VALUE;
             }
 
-            num = (num * 10) + cValue;
+            result = (result * 10) + cValue;
             i++;
             
             
         }
 
-        return neg ? num * -1 : num;
+        return isNegative ? result * -1 : result;
     }
 }
