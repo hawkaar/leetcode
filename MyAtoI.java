@@ -1,6 +1,6 @@
 public class MyAtoI {
     public static void main(String[] args) {
-        String s = "21474836460";
+        String s = "-214748365";
 
         System.out.println(myAtoi(s));
     }
@@ -29,30 +29,19 @@ public class MyAtoI {
         }
 
         while (i < s.length() && Character.isDigit(s.charAt(i))) {
-            
+
+
+            int cValue = Character.getNumericValue(s.charAt(i));
             if (neg) {
-                if (i !=s.length() 
-                && 
-                ((num * -1) < Integer.MIN_VALUE/10 
-                || 
-                ((num * -1) == Integer.MIN_VALUE/10 
-                && 
-                Character.getNumericValue(s.charAt(i+1)) > 8))) {
-                    return Integer.MIN_VALUE;
-                }
-            }else{
-                if (i !=s.length() 
-                && 
-                (num > Integer.MAX_VALUE/10 
-                || 
-                (num == Integer.MAX_VALUE/10 
-                && 
-                Character.getNumericValue(s.charAt(i+1)) > 7))) {
-                    return Integer.MAX_VALUE;
-                }
+                if(num > Integer.MAX_VALUE/10 || (num == Integer.MAX_VALUE/10 && cValue > 8)) return Integer.MIN_VALUE;
+            } else {
+                if(num > Integer.MAX_VALUE/10 || (num == Integer.MAX_VALUE/10 && cValue > 7)) return Integer.MAX_VALUE;
             }
-            num = num * 10 + Character.getNumericValue(s.charAt(i));
+
+            num = (num * 10) + cValue;
             i++;
+            
+            
         }
 
         return neg ? num * -1 : num;
