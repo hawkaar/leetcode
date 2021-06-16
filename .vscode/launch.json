@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThreeSum",
+            "request": "launch",
+            "mainClass": "ThreeSum",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch MostWater",
             "request": "launch",
             "mainClass": "MostWater",
