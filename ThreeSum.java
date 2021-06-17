@@ -30,13 +30,13 @@ public class ThreeSum {
                 } else if (nums[i] + twoSum < 0) {
                     j++;
                 } else {
-
                         aList.add(Arrays.asList(nums[i], nums[j++], nums[k--]));
                 }
             }
 
         }
-        return new ArrayList(aList);
+
+        return new ArrayList<>(aList);
     }
 
 }
