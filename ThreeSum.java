@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ThreeSum {
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class ThreeSum {
 
     private static List<List<Integer>> threeSum(int[] nums) {
 
-        ArrayList<List<Integer>> aList = new ArrayList<>();
+        Set<List<Integer>> aList = new HashSet<>();
         Arrays.sort(nums);
 
         int twoSum = 0;
@@ -29,17 +31,12 @@ public class ThreeSum {
                     j++;
                 } else {
 
-                    if (!aList.contains(Arrays.asList(nums[i], nums[j], nums[k]))) {
-                        aList.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    }
-                    j++;
-                    k--;
-
+                        aList.add(Arrays.asList(nums[i], nums[j++], nums[k--]));
                 }
             }
 
         }
-        return aList;
+        return new ArrayList(aList);
     }
 
 }
