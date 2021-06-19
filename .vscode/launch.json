@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountItemMatch",
+            "request": "launch",
+            "mainClass": "CountItemMatch",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch GoalParserInterp",
             "request": "launch",
             "mainClass": "GoalParserInterp",
