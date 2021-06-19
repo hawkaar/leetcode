@@ -6,10 +6,9 @@ import java.util.Set;
 
 public class ThreeSum {
     public static void main(String[] args) {
-        test t = new test();
-        // int x[] = { -1, 0, 1, 2, -1, -4 };
+        int x[] = { -1, 0, 1, 2, -1, -4 };
 
-        System.out.println(threeSum(t.x));
+        System.out.println(threeSum(x));
 
     }
 
