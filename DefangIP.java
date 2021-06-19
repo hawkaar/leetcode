@@ -6,15 +6,19 @@ public class DefangIP {
     }
 
 
+    // public static String defangIPaddr(String address) {
+    //     String newIp = "";
+    //     for (int i = 0; i < address.length(); i++) {
+    //         if (address.charAt(i) == '.') {
+    //             newIp = newIp + "[.]";
+    //         }else newIp = newIp + address.charAt(i);
+    //     }
+
+
+    //     return newIp;
+    // }
+
     public static String defangIPaddr(String address) {
-        String newIp = "";
-        for (int i = 0; i < address.length(); i++) {
-            if (address.charAt(i) == '.') {
-                newIp = newIp + "[.]";
-            }else newIp = newIp + address.charAt(i);
-        }
-
-
-        return newIp;
+        return address.replace(".", "[.]");
     }
 }
