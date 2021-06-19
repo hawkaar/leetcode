@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GoalParserInterp",
+            "request": "launch",
+            "mainClass": "GoalParserInterp",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch DefangIP",
             "request": "launch",
             "mainClass": "DefangIP",
