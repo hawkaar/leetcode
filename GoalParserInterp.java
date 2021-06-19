@@ -1,5 +1,3 @@
-import jdk.internal.org.objectweb.asm.tree.analysis.Interpreter;
-
 public class GoalParserInterp {
     public static void main(String[] args) {
         String s = "G()()()(al)";
