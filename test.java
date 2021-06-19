@@ -1,11 +1,13 @@
 
-public class test {
+public class test extends Trie{
     public static void main(String[] args) {
-        int luck = 10;
-        if ((luck > 10 ? luck++ : --luck) < 10) {
-            System.out.print("Bear");
-        }
-        if (luck < 10)
-            System.out.print("Shark");
+        Trie t = new Trie();
+        t.longestCommonPrefix(q, strs)
     }
+    
 }
+
+
+
+
+
