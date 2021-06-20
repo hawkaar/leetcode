@@ -11,10 +11,11 @@ public class NestingDepth {
         int LBracket = 0;
 
 
-        for (Character cChar : s.toCharArray()) {
-            if (cChar == '(') {
+        for (int i = 0 ; i < s.length(); i++) {
+            
+            if (s.charAt(i) == '(') {
                 LBracket++;
-            }else if (cChar == ')') {
+            }else if (s.charAt(i) == ')') {
                 LBracket--;
             }
 
