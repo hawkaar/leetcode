@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IfTwoStringArrEquivalent",
+            "request": "launch",
+            "mainClass": "IfTwoStringArrEquivalent",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch SortingSentence",
             "request": "launch",
             "mainClass": "SortingSentence",
