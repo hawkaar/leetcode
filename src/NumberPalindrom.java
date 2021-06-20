@@ -1,3 +1,4 @@
+package src;
 public class NumberPalindrom {
     public static void main(String[] args) {
         int x = 12321;

@@ -1,3 +1,4 @@
+package src;
 public class ConsistentStrings {
     public static void main(String[] args) {
         String[] words = {"ad","bd","aaab","baa","badab"};

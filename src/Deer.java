@@ -1,3 +1,4 @@
+package src;
 public class Deer {
     public Deer() {
         System.out.print("Deer");
