@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch checkPanagram",
+            "request": "launch",
+            "mainClass": "checkPanagram",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch NestingDepth",
             "request": "launch",
             "mainClass": "NestingDepth",
