@@ -8,13 +8,21 @@ public class RunningSumOf1dArray {
         System.out.println(Arrays.toString(runningSum(nums)));
     }
 
+    // public static int[] runningSum(int[] nums) {
+        
+    //     int runningSum = 0;
+    //     for (int i = 0; i < nums.length; i++) {
+
+    //         nums[i] += runningSum;
+    //         runningSum = nums[i];
+    //     }
+
+    //     return nums;
+    // }
     public static int[] runningSum(int[] nums) {
         
-        int runningSum = 0;
-        for (int i = 0; i < nums.length; i++) {
-
-            nums[i] += runningSum;
-            runningSum = nums[i];
+        for (int i = 1; i < nums.length; i++) {
+            nums[i] += nums[i-1];
         }
 
         return nums;
