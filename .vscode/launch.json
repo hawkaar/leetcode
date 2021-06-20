@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConsistentStrings",
+            "request": "launch",
+            "mainClass": "ConsistentStrings",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch IfTwoStringArrEquivalent",
             "request": "launch",
             "mainClass": "IfTwoStringArrEquivalent",
