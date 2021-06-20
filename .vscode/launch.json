@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RunningSumOf1dArray",
+            "request": "launch",
+            "mainClass": "src.RunningSumOf1dArray",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch checkPanagram",
+            "request": "launch",
+            "mainClass": "src.checkPanagram",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch ConsistentStrings",
             "request": "launch",
             "mainClass": "ConsistentStrings",
