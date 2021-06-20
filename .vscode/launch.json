@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SplitStringBalance",
+            "request": "launch",
+            "mainClass": "SplitStringBalance",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch CountItemMatch",
             "request": "launch",
             "mainClass": "CountItemMatch",
