@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumDecode",
+            "request": "launch",
+            "mainClass": "src.NumDecode",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch RunningSumOf1dArray",
             "request": "launch",
             "mainClass": "src.RunningSumOf1dArray",
