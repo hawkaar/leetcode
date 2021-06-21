@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MyAtoI",
+            "request": "launch",
+            "mainClass": "src.MyAtoI",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch NumDecode",
             "request": "launch",
             "mainClass": "src.NumDecode",
