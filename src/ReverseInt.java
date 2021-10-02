@@ -1,4 +1,3 @@
-package src;
 public class ReverseInt{
     public static void main(String[] args) {
         int x = Integer.MAX_VALUE;

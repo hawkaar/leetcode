@@ -1,4 +1,3 @@
-package src;
 // Java Solution
 public class LongestPalinSubstring {
 	// A utility function to print

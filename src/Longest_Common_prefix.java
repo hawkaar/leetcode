@@ -1,4 +1,3 @@
-package src;
 // Java Program to find the longest common
 // prefix of the given words
 public class Longest_Common_prefix {

@@ -1,4 +1,4 @@
-package src;
+
 public class IfTwoStringArrEquivalent {
     public static void main(String[] args) {
         String[] word1 = {"ab", "c"};

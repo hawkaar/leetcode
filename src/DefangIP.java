@@ -1,4 +1,4 @@
-package src;
+
 public class DefangIP {
     public static void main(String[] args) {
         String ip = "10.100.152.1";

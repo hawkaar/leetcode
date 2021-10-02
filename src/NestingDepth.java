@@ -1,4 +1,3 @@
-package src;
 public class NestingDepth {
     public static void main(String[] args) {
         String s = "(()(())((())))";

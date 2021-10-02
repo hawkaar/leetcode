@@ -1,4 +1,3 @@
-package src;
 public class SplitStringBalance {
     public static void main(String[] args) {
         String s = "RRLLRLLRL";
