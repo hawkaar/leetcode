@@ -6,6 +6,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LonegestPalindromMethod2",
+            "request": "launch",
+            "mainClass": "src.LonegestPalindromMethod2",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Child",
+            "request": "launch",
+            "mainClass": "src.Child",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jellyfish",
+            "request": "launch",
+            "mainClass": "src.Jellyfish",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shark",
+            "request": "launch",
+            "mainClass": "src.Shark",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "src.Car",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch TraditionalSearch",
+            "request": "launch",
+            "mainClass": "src.TraditionalSearch",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Egret",
+            "request": "launch",
+            "mainClass": "src.Egret",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mouse",
+            "request": "launch",
+            "mainClass": "src.Mouse",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cat",
+            "request": "launch",
+            "mainClass": "src.Cat",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClownFish",
+            "request": "launch",
+            "mainClass": "src.ClownFish",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pelican",
+            "request": "launch",
+            "mainClass": "src.Pelican",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bird",
+            "request": "launch",
+            "mainClass": "src.Bird",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "src.A",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch C",
+            "request": "launch",
+            "mainClass": "src.C",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Peacock",
+            "request": "launch",
+            "mainClass": "src.Peacock",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch B",
+            "request": "launch",
+            "mainClass": "src.B",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Capybara",
+            "request": "launch",
+            "mainClass": "src.Capybara",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch x",
+            "request": "launch",
+            "mainClass": "src.x",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch D",
+            "request": "launch",
+            "mainClass": "src.D",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch RopeSwing",
+            "request": "launch",
+            "mainClass": "src.RopeSwing",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch OrderDriver",
+            "request": "launch",
+            "mainClass": "src.OrderDriver",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilders",
+            "request": "launch",
+            "mainClass": "src.StringBuilders",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch KoalaTester",
+            "request": "launch",
+            "mainClass": "KoalaTester",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Koala",
+            "request": "launch",
+            "mainClass": "Koala",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch BirdWatcher",
+            "request": "launch",
+            "mainClass": "pond.shore.BirdWatcher",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gosling",
+            "request": "launch",
+            "mainClass": "pond.goose.Gosling",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zoo",
+            "request": "launch",
+            "mainClass": "Zoo",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "src.test",
+            "projectName": "leetcode_1af538d8"
+        },
+        {
+            "type": "java",
             "name": "Launch MyAtoI",
             "request": "launch",
             "mainClass": "src.MyAtoI",
