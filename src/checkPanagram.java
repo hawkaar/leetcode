@@ -1,3 +1,5 @@
+package src;
+
 public class checkPanagram {
     public static void main(String[] args) {
         String sentence = "abcdefghijklmnopqrstuvwxyz";
@@ -7,7 +9,8 @@ public class checkPanagram {
 
 
     public static boolean checkIfPangram(String sentence) {
-        return sentence.chars().distinct().count()==26?true:false; 
+
+        return sentence.chars().distinct().count() == 26;
     }
 
     // public static boolean checkIfPangram(String sentence) {
