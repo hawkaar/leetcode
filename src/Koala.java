@@ -1,3 +1,5 @@
+package src;
+
 public class Koala {
 
     public int count = 0;

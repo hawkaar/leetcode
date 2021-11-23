@@ -1,4 +1,6 @@
-    // A Java program to implement Manacher’s Algorithm
+package src;
+
+// A Java program to implement Manacher’s Algorithm
 public class LongestPalindromeManachers {
 
         // Driver code

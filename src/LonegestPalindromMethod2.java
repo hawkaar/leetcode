@@ -1,3 +1,5 @@
+package src;
+
 //this another way of doing it with
 //Time complextisty: O(n^2)
 //Space : O(n^2)

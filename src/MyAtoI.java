@@ -1,3 +1,5 @@
+package src;
+
 public class MyAtoI {
     public static void main(String[] args) {
         String s = "-214748365";

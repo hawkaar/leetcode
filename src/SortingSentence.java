@@ -1,3 +1,5 @@
+package src;
+
 public class SortingSentence {
     public static void main(String[] args) {
         String s = "is2 sentence4 This1 a3";
